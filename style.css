@@ -1,0 +1,445 @@
+* {
+    background: #E9ECF8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.logo_alura {
+    margin-left: 84px;
+    padding-top: 40px;
+}
+
+.textarea {
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: transparent;
+    border-style: none;
+    outline: 0;
+    break-inside: auto;
+    resize: none;
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    text-transform: lowercase;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.informacao {
+    width: 228px;
+    height: 18px;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    bottom: 155px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    bottom: 55px;
+}
+
+.botao_criptografar {
+    width: 280px;
+    height: 19px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao_criptografar:hover {
+    transform: scale(1.1);
+}
+
+.botao_descriptografar {
+    width: 280px;
+    height: 352px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    box-sizing: border-box;
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao_descriptografar:hover {
+    transform: scale(1.1);
+}
+
+.retangulo {
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.mensagem {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 125px;
+    background: transparent;
+    border-style: none;
+    outline: 0;
+    break-inside: auto;
+    resize: none;    
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    text-transform: lowercase;
+}
+
+.mensagem::placeholder{
+    color: transparent;
+}
+
+.mensagens_direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 450px;
+    background: #FFFFFF;
+}
+
+.mensagem1_boneco {
+    padding: 0px 0;
+    width: 336px;
+    height: 58px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    background: transparent;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.mensagem2_boneco {
+    padding: 20px 0;
+    width: 336px;
+    height: 48px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    background: transparent;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.botao_copiar {
+    width: 288px;
+    height: 19px;
+    left: 1032px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: #FFFFFF;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    box-sizing: border-box;
+    display:inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    bottom: 55px;
+    border: 1px solid #0A3871;
+    border-radius: 24px; 
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao_copiar:hover {
+    transform: scale(1.1);
+}
+
+/*Tablets*/
+@media screen and (max-width: 768px) {
+
+    .logo_alura{
+        margin: 0px 0px 0px 40px;
+        padding: 73.42px 0px 0px 0px;
+    }
+
+    .retangulo {
+        position: absolute;
+        width: 688px;
+        height: 250px;
+        left: 40px;
+        top: 735px;
+    }
+
+    .mensagem {
+        position: absolute;
+        width: 660px;
+        height: 150px;
+        left: 55px;
+        top: 750px;
+    }
+
+    .mensagens_direita {
+        position: absolute;
+        width: 660px;
+        height: 230px;
+        left: 55px;
+        top: 750px;
+    }
+
+    .mensagem1_boneco {
+        position: absolute;
+        width: 624px;
+        height: 29px;
+        left: 20px;
+        top: 60px;
+    }
+
+    .mensagem2_boneco {
+        position: absolute;
+        width: 263px;
+        height: 58px;
+        left: 190px;
+        top: 100px;
+    }
+
+    .textarea {
+        position: absolute;
+        width: 688px;
+        height: 350px;
+        left: 40px;
+        top: 240px;
+    }
+
+    .informacao{
+        position: absolute;
+        width: 252px;
+        height: 18px;
+        left: 40px;
+        top: 595px;
+    }
+
+    .botoes {
+        position: absolute;
+        width: 688px;
+        height: 67px;
+        left: 40px;
+        top: 630px;
+    }
+    
+    .botao_criptografar {
+        width: 332px;
+        height: 67px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .botao_descriptografar{
+        width: 332px;
+        height: 67px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .botao_copiar {
+        position: absolute;
+        width: 640px;
+        height: 67px;
+        left: 63px;
+        top: 88%;
+        transition: 1s all;
+        cursor: pointer;
+    }
+}
+
+/*Smartphones*/
+@media screen and (max-width: 480px) {
+
+    .logo_alura{
+        margin: 0px 0px 0px 16px;
+        padding: 24px 0px 0px 0px;
+    }
+
+    .retangulo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        width: 327px;
+        height: 186px;
+        left: 30px;
+        top: 630px;
+    }
+
+    .mensagem {
+        position:absolute;
+        width: 315px;
+        height: 99px;
+        left: 35px;
+        top: 650px;
+        text-transform: lowercase;
+    }
+
+    .mensagens_direita {
+        position: absolute;
+        width: 293px;
+        height: 150px;
+        left: 45px;
+        top: 650px;
+    }
+
+    .mensagem1_boneco {
+        position: absolute;
+        width: 263px;
+        height: 58px;
+        left: 15px;
+        top: 10px;
+    }
+
+    .mensagem2_boneco {
+        position: absolute;
+        width: 263px;
+        height: 58px;
+        left: 15px;
+        top: 65px;
+    }
+
+    .textarea {
+        position: absolute;
+        width: 355px;
+        height: 240px;
+        left: 16px;
+        top: 152px;
+        text-transform: lowercase;
+    }
+
+    .informacao{
+        position: absolute;
+        width: 252px;
+        height: 18px;
+        left: 16px;
+        top: 400px;
+    }
+
+    .botoes {
+        position: absolute;
+        width: 343px;
+        height: 158px;
+        left: 12px;
+        top: 440px;
+    }
+    
+    .botao_criptografar {
+        position: absolute;
+        width: 343px;
+        height: 67px; 
+        left: 12px;
+        top: 0px;  
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .botao_descriptografar{
+        position: absolute;
+        width: 343px;
+        height: 67px; 
+        left: 12px;
+        top: 90px; 
+        transition: 1s all;
+        cursor: pointer;
+    }
+
+    .botao_copiar {
+        position: absolute;
+        width: 280px;
+        height: 67px;
+        left: 53px;
+        top: 88%;
+        transition: 1s all;
+        cursor: pointer;
+    }    
+}

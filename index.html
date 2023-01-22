@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge ONE - Decodificador de Texto</title>
+    <link rel="Stylesheet" href="reset.css">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="shortcut icon" href ="logo_a.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo_alura" src="Vector.svg" alt="Logo da Alura">
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="retangulo"></div>
+
+            <div id="resultado_mensagem">
+
+                <textarea class="mensagem" placeholder="." ></textarea>
+
+                <img class="mensagem" src="High quality products 1 1.svg" alt="Imagem de Boneco">
+
+                <div class="mensagens_direita">
+                    <p class="mensagem1_boneco">Nenhuma mensagem encontrada</p>
+                    <p class="mensagem2_boneco">Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+            
+            </div>
+            
+        </section>
+
+        <section>
+
+            <form>
+                <textarea id="digite_seu_texto" class="textarea" placeholder="digite seu texto" required></textarea>
+                
+                <div class="informacao">
+                    <img src="exclamacao.svg" alt="Sínal de exclamação">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit" onclick="criptografar ()" class="botao_criptografar">Criptografar</button>
+                    <button type="submit" onclick="descriptografar ()" class="botao_descriptografar">Descriptografar</button>
+                </div>  
+
+            </form>
+
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>   
+
+</body>
+
+</html>
